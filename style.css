@@ -1,0 +1,2380 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Bruno Ace SC', cursive; */
+    /* font-family: 'Russo One', sans-serif; */
+}
+
+/* Begin Section Header */
+
+
+
+
+.header{
+    
+}
+
+
+.container{
+    max-width: 1230px;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+
+.header__top{
+    padding: 30px 0px;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+}
+
+.header__item:not(:last-child){
+   margin: 0 170px 0 0;
+}
+
+.header__item:first-child{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.header__item:nth-child(2){
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 25px;
+    margin: 0 340px 0 0;
+}
+
+.header__item:last-child{
+    font-size: 22px;
+    
+}
+
+
+
+.header__bottom{
+    background-color: #212121;
+    padding: 13px 0px;
+}
+
+
+.nav__list{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nav__item a:hover{
+    color: grey;
+    transition: all 0.5s ease;
+}
+
+
+
+.nav__item:not(:last-child){
+    margin: 0 40px 0 0;
+}
+
+
+.btn__reset{
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav__iconLog{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+
+.nav__iconLog a svg{
+    width: 36px;
+    height: 36px;
+}
+
+svg:hover{
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+
+
+.header__burger{
+    display: none;
+}
+
+/* End Section Header */
+
+/* Begin Section HERO */
+
+.hero{
+    background: url("../img/image3.png") no-repeat;
+    background-size: cover;
+    padding: 90px 0 65px 0;
+}
+
+.hero__body{
+    color: white;
+}
+
+.hero__title{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    line-height: 100px;
+    letter-spacing: 5px;
+}
+
+.hero__title span{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 60px;
+}
+
+.hero__line{
+    width: 100px;
+    border: 2px solid #fff;
+    margin: 65px 0 40px 0;
+}
+
+.hero__text{
+    font-size: 25px;
+    width: 1100px;
+    line-height: 40px;
+}
+
+.hero__list{
+
+}
+
+.list__list{
+    margin: 40px 0 0 30px;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.list__item{
+
+}
+
+.hero__btn{
+    font-size: 24px;
+    color: #fff;
+    background-color: #a0887e;
+    padding: 30px 100px 30px 100px;
+    margin: 90px 0 0 0;
+    cursor: pointer;
+}
+
+/* END Section HERO */
+
+
+
+/* Begin Section Catalog */
+
+.catalog{
+    margin: 60px 0 0px 0;
+}
+
+.catalog__body{
+
+}
+
+.catalog__top{
+
+}
+
+.catalog__bottom{
+    margin: 60px 0 0 10px;
+}
+
+.catalog__titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 70px 0;
+}
+
+.catalog__title{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    width: 550px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.catalog__title span{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+}
+
+.catalog__subtitle{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.catalog__btn{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    display: none;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.catalog__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog__block{
+    
+}
+
+.catalog__links{
+    background-color: #f8f8f8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 20px 30px 10px;
+    line-height: 50px;
+   /* display: none; */
+}
+
+/* .catalog__links.catalog__btn{
+    display: block;
+} */
+
+
+
+.catalog__item{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.catalog__item:nth-child(3){
+    width: 260px;
+    line-height: 40px;
+}
+
+
+
+.car__links{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.car__links a:first-child{
+   text-decoration: underline;
+   margin: 0 20px 0 0;
+}
+
+.catalog__cars{
+
+}
+
+.catalog__car{
+    display: flex;
+    justify-content: space-between;
+}
+
+.car__item{
+    border: 5px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 0 0;
+}
+
+.catalog__row .car__item:nth-child(1){
+   
+    margin: 0 63px 0 0;
+}
+
+.catalog__row .car__item:nth-child(2){
+   
+    margin: 0 0px 0 0;
+}
+
+
+
+
+.car__LINES {
+    position: absolute;
+    top: 2132px;
+    display: flex;
+    margin: 0 0 0 15px;
+}
+
+
+.car__LINE{
+    border-top: 7px solid #000;
+    width: 50px;
+    margin: 0 35px 0 0;
+   opacity: 0;
+    height: 190px;
+    position: relative;
+    z-index: 1;
+}
+
+.car__LINE:last-child{
+   margin: 0;
+}
+
+/* .car__item:first-child */
+
+.car__LINE:hover:first-child::before{
+    content: '';
+    width: 325px;
+    height: 205px;
+    background: url("../img/car1.png") no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: -15px;
+    top: 0;
+    transition: all 0.5s ease;
+}
+
+ .car__LINE:hover:nth-child(2)::before{
+    content: '';
+    width: 325px;
+    height: 205px;
+    background: url("../img/car2.png") no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    left: -95px;
+    transition: all 0.5s ease;
+}
+
+.car__LINE:hover:nth-child(3)::before{
+    content: '';
+    width: 325px;
+    height: 205px;
+    background: url("../img/car3.png") no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: -175px;
+    top: 0;
+    transition: all 0.5s ease;
+} 
+
+.car__LINE:hover:last-child::before{
+    content: '';
+    width: 330px;
+    height: 205px;
+    background: url("../img/car4.png") no-repeat;
+    display: inline-block;
+    position: absolute;
+   left: -257px;
+    top: 0;
+    transition: all 0.5s ease;
+} 
+
+.car__img{
+   
+}
+
+.car__item .car__LINE:hover{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+
+.car__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.car__name{
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    width: 220px;
+}
+
+.car__icons{
+    
+}
+
+.car__icons a:first-child{
+    margin: 0 10px 0 0;
+}
+
+.car__charact{
+
+}
+
+.car__text{
+    margin: 18px 0 0 0;
+    font-size: 16.5px;
+}
+
+
+
+.car__price{
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.car__valute{
+    width: 14px;
+    height: 16px;
+}
+
+.car__btn{
+    background-color: #a0887e;
+    color: #fff;
+    display: flex;
+    padding: 25px 65px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* End Section Catalog */
+
+
+
+/* Begin Section Vehicle */
+
+.vehicle{
+    margin: 60px 0 0px 0;
+    
+}
+
+.vehicle__body{
+
+}
+
+.vehicle__titles{
+    display: flex;
+    justify-content: center;
+}
+
+.vehicle__title{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    width: 780px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.vehicle__title span{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+}
+
+.vehicle__links{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.vehicle__links a:first-child{
+    text-decoration: underline;
+    margin: 0 20px 0 0;
+}
+
+.vehicle__cars{
+
+}
+
+.vehicle__car{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.veh{
+
+}
+
+.veh__item{
+    border: 5px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px 40px 0;
+}
+
+.veh__item:nth-child(4){
+    margin: 20px 0px 0px 0;
+}
+
+.veh__item:nth-child(5){
+    margin: 20px 0px 0px 0;
+}
+
+.veh__item:nth-child(6){
+    margin: 20px 0px 0px 0;
+}
+
+
+
+/* End Section Vehicle */
+
+
+/* Begin Section GALLERY */
+
+.gallery{
+    margin: 200px 0 0 0;
+}
+
+.gallery__body{
+
+}
+
+.gallery__block{
+
+}
+
+.gallery__list{
+
+}
+
+
+.gallery__list li:nth-child(2) .gal__titles{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.gallery__list li:nth-child(2) .gal__titles .gal__subtitle{
+    margin: 70px 0;
+}
+
+.gallery__list li:nth-child(2) .gal__titles .gal__btn{
+    padding: 30px 90px;
+}
+
+
+
+
+.gallery__list li:nth-child(3) .gal__titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery__list li:nth-child(3) .gal__title{
+    margin: 50px 0 0 0;
+    line-height: 60px;
+}
+ 
+.gallery__list li:nth-child(3) .gal__titles .gal__subtitle{
+    margin: 60px 0;
+}
+ 
+.gallery__list li:nth-child(3) .gal__titles .gal__btn{
+    padding: 30px 100px;
+}
+
+
+.gallery__item{
+    margin: 0 0 30px 0;
+}
+
+.gallery__item:last-child{
+    margin: 0 0 0px 0;
+}
+
+.gal{
+
+}
+
+.gal__blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gal__titles{
+    
+}
+
+.gal__title{
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    width: 520px;
+    line-height: 70px;
+}
+
+.gal__subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    width: 450px;
+    line-height: 40px;
+    margin: 6px 0px 40px 0;
+}
+
+.gal__btn{
+    font-size: 24px;
+    color: #fff;
+    background-color: #a0887e;
+    padding: 30px 50px;
+    cursor: pointer;
+}
+
+.gal__imgs{
+
+}
+
+.gal__img{
+
+}
+
+/* End Section GALLERY */
+
+/* Begin Section FEEDBACK */
+
+.feedback{
+    margin: 200px 0 0 0;
+}
+
+.feedback__body{
+
+}
+
+.feedback__titles{
+    display: flex;
+    justify-content: center;
+}
+
+.feedback__title{
+    text-align: center;
+    width: 590px;
+    font-size: 45px;
+    font-family: 'Russo One', sans-serif;
+    line-height: 70px;
+}
+
+.feedback__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+
+.feedback__item{
+    border: 3px solid #bbbbbb;
+    padding: 10px;
+}
+
+.feedback__img{
+
+}
+
+.feedback__subtitle{
+    font-size: 16px;
+    font-weight: 700;
+    width: 345px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px 0 25px 0;
+    opacity: 0.9;
+}
+
+.feedback__text{
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;
+}
+
+/* End Section FEEDBACK */
+
+
+/* Begin Section MAP */
+
+.map{
+    margin: 200px 0 0 0;
+}
+
+.map__body{
+
+}
+
+.map__titles{
+    display: flex;
+    justify-content: center;
+}
+
+.map__title{
+     font-size: 45px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.map__blocks{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.map__list{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.map__item{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.map__item:last-child{
+    margin: 0 0 0px 0;
+}
+
+.center__map{
+    margin: 0 auto;
+    width: 830px;
+    height: 580px;
+    border: 2px solid #000;
+}
+
+/* End Section MAP */
+
+
+/* Begin Section FOOTER */
+
+.footer{
+    background-color: #212121;
+    padding: 30px 0;
+    margin: 100px 0 0 0;
+}
+
+.footer__body{
+
+}
+
+.footer__text{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__info{
+    width: 470px;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.footer__logo{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.footer__phones{
+    width: 330px;
+    text-align: right;
+    line-height: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.footer__phones div img:nth-child(1){
+    width: 15px;
+    height: 20px;
+}
+
+/* End Section FOOTER */
+
+
+
+@media (max-width: 1024px){
+    body{
+       background-color: #000;
+    }
+
+    body::before{
+        content: "Переверните экран в вертикальную ориентацию!";
+        color: #fff;
+        font-size: 50px;
+        font-family: 'Russo One', sans-serif;
+        position: absolute;
+        top: 420px;
+        left: 0px;
+        text-align: center;
+        line-height: 70px;
+    }
+
+
+
+    header,main,section,center,footer{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-color: #fff;
+     }
+
+     body::before{
+       display: none;
+    }
+
+    header,main,section,center,footer{
+        display: block;
+    }
+
+    /* Begin Section Header */
+    .container{
+        max-width: 798px;
+        margin: 0px auto;
+        padding: 0 15px;
+    }
+    
+    .header__top{
+        padding: 30px 0px;
+    }
+    
+    .header__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__item:not(:last-child){
+       margin: 0 0px 0 0;
+    }
+    
+    .header__item:first-child{
+        font-size: 14px;
+        line-height: 20px;
+        width: 255px;
+    }
+    
+    .header__item:nth-child(2){
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 25px;
+    }
+    
+    .header__item:last-child{
+        font-size: 20px;
+    }
+
+
+
+    .header__bottom{
+        background-color: #212121;
+        padding: 25px 0px;
+    }
+
+    .header__burger{
+        margin: 3px 0 0 20px;
+        display: inline-block;
+    }
+
+    
+
+    .header__nav .nav__list{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    
+
+    .header__nav{
+        opacity: 0;
+        transition: all 1s ease;
+    }
+    
+    .nav__list{
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        background-color: #212121;
+        top: 120px;
+        left: 15px;
+    }
+
+    
+
+
+    .mobileMenu{
+        opacity: 1;
+       transition: all 1s ease;
+    }
+    
+
+
+    
+    .nav__item a:hover{
+        color: grey;
+        transition: all 0.5s ease;
+    }
+
+    .nav__item:first-child{
+        order: 4;
+    }
+    .nav__item:nth-child(2){
+        order: 2;
+    }
+    .nav__item:nth-child(3){
+        order: 3;
+    }
+
+    .nav__item:nth-child(4){
+        order: 1;
+        padding: 90px 40px 20px 80px;
+    }
+
+    .nav__item:nth-child(5){
+        order: 5;
+    }
+
+    .nav__item:nth-child(6){
+        order: 6;
+    }
+    
+    .nav__item:last-child{
+        order: 7;
+    }
+    
+    
+    
+    .nav__item{
+       padding: 0 0 20px 15px;
+    }
+    
+    
+    .btn__reset{
+        background-color: transparent;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .nav__iconLog{
+        color: white;
+        font-size: 16px;
+    }
+    
+    
+    
+    .nav__iconLog a svg:first-child{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* End Section Header */
+
+    /* Begin Section HERO */
+    .hero{
+        background: url("../img/image3.png") center no-repeat;
+        padding: 140px 0 150px 0;
+    }
+    
+    .hero__body{
+        color: white;
+    }
+    
+    .hero__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 50px;
+        line-height: 80px;
+        letter-spacing: 5px;
+    }
+    
+    .hero__title span{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 45px;
+    }
+    
+    .hero__line{
+        width: 100px;
+        border: 1.9px solid #fff;
+        margin: 40px 0 45px 0;
+    }
+    
+    .hero__text{
+        font-size: 22px;
+        width: 700px;
+        line-height: 40px;
+    }
+    
+    .hero__list{
+    
+    }
+    
+    .list__list{
+        margin: 40px 0 0 25px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .list__item{
+    
+    }
+    
+    .hero__btn{
+        font-size: 22px;
+        color: #fff;
+        background-color: #a0887e;
+        padding: 30px 70px 30px 70px;
+        margin: 80px 0 0 0;
+        cursor: pointer;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+    }
+    /* END Section HERO */
+
+    /* Begin Section Catalog */
+
+    .catalog{
+        margin: 60px 0 0px 0;
+    }
+
+    .catalog__body{
+
+    }
+
+    .catalog__top{
+
+    }
+
+    .catalog__bottom{
+        margin: 20px 0 0 0px;
+    }
+
+    .catalog__titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 30px 0;
+    }
+
+    .catalog__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 40px;
+        width: 550px;
+        text-align: center;
+        line-height: 50px;
+        margin: 0 0 10px 0;
+    }
+
+    .catalog__title span{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 35px;
+    }
+
+    .catalog__subtitle{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        width: 600px;
+        line-height: 30px;
+    }
+
+    .catalog__btn{
+        font-weight: bold;
+        font-size: 20px;
+        margin: 20px 0 0 0;
+        display: block;
+    }
+
+    .btn{
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .catalog__row{
+        display: block;
+        
+    }
+
+    .catalog__block{
+        display: flex;
+        justify-content: center;
+    }
+
+    .catalog__links{
+        background-color: #f8f8f8;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 45px;
+        height: 220px;
+        width: 400px;
+        display: none;
+    }
+
+    .catalog__links.catalog__btn{
+        display: block;
+    }
+
+
+
+
+    .catalog__item{
+        border-bottom: 2px solid #e0e0e0;
+        text-align: center;
+    }
+
+    .catalog__item:nth-child(3){
+        width: 360px;
+        line-height: 35px;
+    }
+
+    .car__links{
+        display: flex;
+        justify-content: flex-end;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 50px 10px 0 0;
+    }
+
+    .car__links a:first-child{
+        text-decoration: underline;
+        margin: 0 20px 0 0;
+    }
+
+    .catalog__cars{
+        
+    }
+
+    .catalog__car{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .car__item{
+        border: 5px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0px 0 0;
+    }
+
+    .catalog__row .car__item:nth-child(1){
+        margin: 30px 0px 0 0;
+     }
+
+    .catalog__row .car__item:nth-child(2){
+        margin: 30px 0px 0 0;
+    }
+
+    .catalog__bottom .car__item:nth-child(3){
+        margin: 50px 0px 0 0;
+    }
+
+    .car__lines{
+        display: none;
+    }
+
+    .car__line{
+        display: none;
+    }
+
+    
+
+    .car__img{
+
+    }
+
+    .car__info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .car__name{
+        font-family: 'Russo One', sans-serif;
+        font-size: 20px;
+        width: 220px;
+    }
+
+    .car__icons{
+        
+    }
+
+    .car__icons a:first-child{
+        margin: 0 10px 0 0;
+    }
+
+    .car__charact{
+
+    }
+
+    .car__text{
+        margin: 18px 0 0 0;
+        font-size: 16.5px;
+    }
+
+
+
+    .car__price{
+        font-family: 'Russo One', sans-serif;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .car__valute{
+        width: 14px;
+        height: 16px;
+    }
+
+    .car__btn{
+        background-color: #a0887e;
+        color: #fff;
+        display: flex;
+        padding: 25px 65px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+    /* End Section Catalog */
+
+    /* Begin Section Vehicle */
+
+    .vehicle{
+        margin: 60px 0 100px 0;
+        
+    }
+
+    .vehicle__body{
+
+    }
+
+    .vehicle__titles{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+
+    .vehicle__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 40px;
+        width: 780px;
+        text-align: center;
+        line-height: 70px;
+    }
+
+    .vehicle__title span{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 35px;
+    }
+
+    .vehicle__links{
+        display: flex;
+        justify-content: flex-end;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0 20px 0px 0;
+    }
+
+    .vehicle__links a:first-child{
+        text-decoration: underline;
+        margin: 0 20px 0 0;
+    }
+
+    .vehicle__cars{
+
+    }
+
+    .vehicle__car{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .veh{
+
+    }
+
+    .veh__item{
+        border: 5px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px 0px 40px 0;
+    }
+
+    .veh__item:nth-child(4){
+        margin: 20px 0px 40px 0;
+    }
+
+    .veh__item:nth-child(5){
+        margin: 20px 0px 0px 0;
+    }
+
+    .veh__item:nth-child(6){
+        margin: 20px 0px 0px 0;
+    }
+
+    /* End Section Vehicle */
+
+
+    /* Begin Section GALLERY */
+
+    .gallery{
+        margin: 200px 0 0px 0;
+    }
+
+    .gallery__body{
+
+    }
+
+    .gallery__block{
+
+    }
+
+    .gallery__list{
+
+    }
+
+
+    .gallery__list li:nth-child(2) .gal__titles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .gallery__list li:nth-child(2) .gal__titles .gal__subtitle{
+        margin: 55px 0;
+    }
+
+    .gallery__list li:nth-child(2) .gal__titles .gal__btn{
+        padding: 20px 40px;
+    }
+
+
+
+
+    .gallery__list li:nth-child(3) .gal__titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .gallery__list li:nth-child(3) .gal__title{
+        margin: 30px 0 0 0;
+        line-height: 40px;
+    }
+    
+    .gallery__list li:nth-child(3) .gal__titles .gal__subtitle{
+        margin: 25px 0 45px 0;
+       width: 350px;
+    }
+    
+    .gallery__list li:nth-child(3) .gal__titles .gal__btn{
+        padding: 20px 70px;
+    }
+
+
+    .gallery__item{
+        margin: 0 0 20px 0;
+    }
+
+    .gal{
+
+    }
+
+    .gal__blocks{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .gal__titles{
+        
+    }
+
+    .gal__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 25px;
+        width: 310px;
+        line-height: 43px;
+    }
+
+    .gal__subtitle{
+        font-size: 14px;
+        font-weight: bold;
+        width: 300px;
+        line-height: 30px;
+        margin: 6px 0px 20px 0;
+    }
+
+    .gal__btn{
+        font-size: 16px;
+        color: #fff;
+        background-color: #a0887e;
+        padding: 20px 25px;
+        cursor: pointer;
+    }
+
+    .gal__imgs{
+
+    }
+
+    .gal__img{
+
+    }
+
+    /* End Section GALLERY */
+
+    /* Begin Section FEEDBACK */
+
+    .feedback{
+        margin: 200px 0;
+    }
+
+    .feedback__body{
+
+    }
+
+    .feedback__titles{
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback__title{
+        text-align: center;
+        width: 445px;
+        font-size: 35px;
+        font-family: 'Russo One', sans-serif;
+        line-height: 70px;
+    }
+
+    .feedback__list{
+        display: flex;
+        margin: 40px 0 0 0;
+        flex-wrap: wrap;
+    }
+
+    .feedback__item{
+        border: 3px solid #bbbbbb;
+        padding: 5px;
+        margin: 0 0 15px 0;
+    }
+
+    .feedback__list li:nth-child(3){
+        margin: 0;
+    }
+
+    .feedback__img{
+
+    }
+
+    .feedback__subtitle{
+        font-size: 16px;
+        font-weight: 700;
+        width: 345px;
+        text-align: center;
+        line-height: 40px;
+        margin: 10px 0 25px 0;
+        opacity: 0.9;
+    }
+
+    .feedback__text{
+        font-family: 'Russo One', sans-serif;
+        font-size: 16px;
+    }
+
+    /* End Section FEEDBACK */
+
+    /* Begin Section MAP */
+
+    .map{
+        margin: 200px 0 0 0;
+    }
+
+    .map__body{
+
+    }
+
+    .map__titles{
+        display: flex;
+        justify-content: center;
+    }
+
+    .map__title{
+        font-size: 35px;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .map__blocks{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+
+    .map__list{
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #e0e0e0;
+        padding: 20px;
+    }
+
+    .map__item{
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0 0 20px 0;
+    }
+
+    .map__item:last-child{
+        margin: 0 0 0px 0;
+    }
+
+    .center__map{
+        margin: 0 auto 200px auto;
+        width: 700px;
+        height: 600px;
+    }
+
+    /* End Section MAP */
+
+    /* Begin Section FOOTER */
+
+    .footer{
+        background-color: #212121;
+        padding: 30px 0;
+        margin: 100px 0 0 0;
+    }
+
+    .footer__body{
+
+    }
+
+    .footer__text{
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__info{
+        width: 371px;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+
+    .footer__logo{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 23px;
+        letter-spacing: 2px;
+    }
+
+    .footer__phones{
+        width: 270px;
+        text-align: right;
+        line-height: 30px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .footer__phones div img:nth-child(1){
+        width: 12px;
+        height: 15px;
+    }
+
+    /* End Section FOOTER */
+
+    
+}
+
+
+@media (max-width: 425px){
+
+    body{
+        background-color: #fff;
+     }
+
+     body::before{
+        display: none;
+     }
+
+    header,main,section,center,footer{
+        display: block;
+    }
+
+    .container{
+        max-width: 455px;
+        margin: 0px auto;
+        padding: 0 15px;
+    }
+    
+    .header__top{
+        padding: 30px 0px;
+    }
+    
+    .header__list{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header__item:not(:last-child){
+       margin: 0 0px 0 0;
+    }
+    
+    .header__item:first-child{
+        font-size: 12px;
+        line-height: 20px;
+        width: 200px;
+        display: none;
+    }
+    
+    .header__item:nth-child(2){
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 22px;
+    }
+    
+    .header__item:last-child{
+        font-size: 18px;
+        margin: 10px 0 0 0;
+    }
+
+
+
+    .header__bottom{
+        background-color: #212121;
+        padding: 25px 0px;
+    }
+
+    .header__burger{
+        margin: 3px 0 0 20px;
+        display: inline-block;
+    }
+
+    
+
+    .header__nav .nav__list{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    
+
+    .header__nav{
+        opacity: 0;
+        transition: all 1s ease;
+    }
+    
+    .nav__list{
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        background-color: #212121;
+        top: 120px;
+        left: 15px;
+    }
+
+    
+
+
+    .mobileMenu{
+        opacity: 1;
+       transition: all 1s ease;
+    }
+    
+
+
+    
+    .nav__item a:hover{
+        color: grey;
+        transition: all 0.5s ease;
+    }
+
+    .nav__item:first-child{
+        order: 4;
+    }
+    .nav__item:nth-child(2){
+        order: 2;
+    }
+    .nav__item:nth-child(3){
+        order: 3;
+    }
+
+    .nav__item:nth-child(4){
+        order: 1;
+        padding: 90px 50px 20px 80px;
+    }
+
+    .nav__item:nth-child(5){
+        order: 5;
+    }
+
+    .nav__item:nth-child(6){
+        order: 6;
+    }
+    
+    .nav__item:last-child{
+        order: 7;
+    }
+    
+    
+    
+    .nav__item{
+       padding: 0 0 20px 15px;
+    }
+    
+    
+    .btn__reset{
+        background-color: transparent;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .nav__iconLog{
+        color: white;
+        font-size: 16px;
+    }
+    
+    
+    
+    .nav__iconLog a svg:first-child{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Begin Section HERO */
+    .hero{
+        background: url("../img/image3.png") center no-repeat;
+        padding: 80px 0 60px 0;
+    }
+    
+    .hero__body{
+        color: white;
+    }
+    
+    .hero__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 30px;
+        line-height: 60px;
+        letter-spacing: 5px;
+    }
+    
+    .hero__title span{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 35px;
+    }
+    
+    .hero__line{
+        width: 100px;
+        border: 1.9px solid #fff;
+        margin: 25px 0 30px 0;
+    }
+    
+    .hero__text{
+        font-size: 18px;
+        width: 350px;
+        line-height: 35px;
+    }
+    
+    .hero__list{
+    
+    }
+    
+    .list__list{
+        margin: 30px 0 0 15px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .list__item{
+    
+    }
+    
+    .hero__btn{
+        font-size: 18px;
+        color: #fff;
+        background-color: #a0887e;
+        padding: 20px 50px 20px 50px;
+        margin: 30px 0 0 0;
+        cursor: pointer;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+    }
+    /* END Section HERO */
+
+    /* Begin Section Catalog */
+
+    .catalog{
+        margin: 60px 0 0px 0;
+    }
+
+    .catalog__body{
+
+    }
+
+    .catalog__top{
+
+    }
+
+    .catalog__bottom{
+        margin: 0px 0 0 0px;
+    }
+
+    .catalog__titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .catalog__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 30px;
+        width: 350px;
+        text-align: center;
+        line-height: 40px;
+        margin: 0 0 0px 0;
+    }
+
+    .catalog__title span{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 25px;
+    }
+
+    .catalog__subtitle{
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        width: 400px;
+        line-height: 30px;
+    }
+
+    .catalog__btn{
+        font-weight: bold;
+        font-size: 18px;
+        margin: 15px 0 0 0;
+        display: block;
+    }
+
+    .btn{
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .catalog__row{
+        display: block;
+        
+    }
+
+    .catalog__block{
+        display: flex;
+        justify-content: center;
+    }
+
+    .catalog__links{
+        background-color: #f8f8f8;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 45px;
+        height: 200px;
+        width: 680px;
+       padding: 10px 10px;
+        display: none;
+    }
+
+    .catalog__links.catalog__btn{
+        display: block;
+    }
+
+
+
+    .catalog__item{
+        border-bottom: 2px solid #e0e0e0;
+        text-align: center;
+    }
+
+    .catalog__item:nth-child(3){
+        width: 360px;
+        line-height: 35px;
+    }
+
+    .car__links{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 40px auto 0 auto;
+    }
+
+    .car__links a:first-child{
+        text-decoration: underline;
+        margin: 0 20px 0 0;
+    }
+
+    .catalog__cars{
+        
+    }
+
+    .catalog__car{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .car__item{
+        border: 5px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0px 0 0;
+    }
+
+    .car__item:nth-child(2){
+       margin-right: 0;
+    }
+
+    .catalog__bottom .car__item:nth-child(2){
+        margin: 50px 0px 0 0;
+    }
+
+    .catalog__bottom .car__item:nth-child(3){
+        margin: 50px 0px 0 0;
+    }
+
+    .car__lines{
+        display: none;
+    }
+
+    .car__line{
+        display: none;
+    }
+
+    
+
+    .car__img{
+
+    }
+
+    .car__info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .car__name{
+        font-family: 'Russo One', sans-serif;
+        font-size: 20px;
+        width: 230px;
+    }
+
+    .car__icons{
+        
+    }
+
+    .car__icons a:first-child{
+        margin: 0 10px 0 0;
+    }
+
+    .car__charact{
+
+    }
+
+    .car__text{
+        margin: 18px 0 0 0;
+        font-size: 16.5px;
+    }
+
+
+
+    .car__price{
+        font-family: 'Russo One', sans-serif;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .car__valute{
+        width: 14px;
+        height: 16px;
+    }
+
+    .car__btn{
+        background-color: #a0887e;
+        color: #fff;
+        display: flex;
+        padding: 25px 65px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+    /* End Section Catalog */
+
+    /* Begin Section Vehicle */
+
+    .vehicle{
+        margin: 60px 0 100px 0;
+        
+    }
+
+    .vehicle__body{
+
+    }
+
+    .vehicle__titles{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+
+    .vehicle__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 30px;
+        width: 380px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .vehicle__title span{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 25px;
+    }
+
+    .vehicle__links{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0 auto 0px auto;
+    }
+
+    .vehicle__links a:first-child{
+        text-decoration: underline;
+        margin: 0 20px 0 0;
+    }
+
+    .vehicle__cars{
+
+    }
+
+    .vehicle__car{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .veh{
+
+    }
+
+    .veh__item{
+        border: 5px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px 0px 40px 0;
+    }
+
+    .veh__item:nth-child(4){
+        margin: 20px 0px 40px 0;
+    }
+
+    .veh__item:nth-child(5){
+        margin: 20px 0px 40px 0;
+    }
+
+    .veh__item:nth-child(6){
+        margin: 20px 0px 0px 0;
+    }
+
+
+
+    /* End Section Vehicle */
+
+    /* Begin Section GALLERY */
+
+    .gallery{
+        margin: 200px 0;
+    }
+
+    .gallery__body{
+
+    }
+
+    .gallery__block{
+
+    }
+
+    .gallery__list{
+
+    }
+
+
+    .gallery__list li:nth-child(2) .gal__titles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+
+    .gallery__list li:nth-child(2) .gal__titles .gal__subtitle{
+        margin: 35px 0;
+    }
+
+    .gallery__list li:nth-child(2) .gal__titles .gal__btn{
+        padding: 20px 50px;
+    }
+
+    .gallery__list li:nth-child(3) .gal__titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+
+    .gallery__list li:nth-child(3) .gal__title{
+        margin: 30px 0 0 0;
+        line-height: 40px;
+    }
+    
+    .gallery__list li:nth-child(3) .gal__titles .gal__subtitle{
+        margin: 20px 0 35px 0;
+       width: 350px;
+    }
+    
+    .gallery__list li:nth-child(3) .gal__titles .gal__btn{
+        padding: 20px 60px;
+    }
+
+
+    .gallery__item{
+        margin: 0 0 15px 0;
+    }
+
+    .gal{
+
+    }
+
+    .gal__blocks{
+        display: block;
+    }
+
+    .gal__titles{
+        background-color: #cfcfcf;
+        padding: 15px 20px 20px 20px;
+        margin: 0 0 20px 0;
+    }
+
+    .gal__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 25px;
+        width: 290px;
+        line-height: 43px;
+    }
+
+    .gal__subtitle{
+        font-size: 14px;
+        font-weight: bold;
+        width: 300px;
+        line-height: 30px;
+        margin: 6px 0px 20px 0;
+    }
+
+    .gal__btn{
+        font-size: 14px;
+        color: #fff;
+        background-color: #a0887e;
+        padding: 20px 25px;
+        cursor: pointer;
+    }
+
+    .gal__imgs{
+
+    }
+
+    .gal__img{
+
+    }
+
+    /* End Section GALLERY */
+
+    /* Begin Section FEEDBACK */
+
+    .feedback{
+        margin: 200px 0;
+    }
+
+    .feedback__body{
+
+    }
+
+    .feedback__titles{
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback__title{
+        text-align: center;
+        width: 320px;
+        font-size: 25px;
+        font-family: 'Russo One', sans-serif;
+        line-height: 50px;
+    }
+
+    .feedback__list{
+        display: flex;
+        margin: 40px 0 0 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .feedback__item{
+        border: 3px solid #bbbbbb;
+        padding: 5px 0 5px 5px;
+        margin: 0 0 15px 0;
+    }
+
+    .feedback__img{
+
+    }
+
+    .feedback__subtitle{
+        font-size: 16px;
+        font-weight: 700;
+        width: 345px;
+        text-align: center;
+        line-height: 40px;
+        margin: 10px 0 25px 0;
+        opacity: 0.9;
+    }
+
+    .feedback__text{
+        font-family: 'Russo One', sans-serif;
+        font-size: 16px;
+    }
+
+
+
+    /* End Section FEEDBACK */
+
+    /* Begin Section MAP */
+
+    .map{
+        margin: 200px 0 0 0;
+    }
+
+    .map__body{
+
+    }
+
+    .map__titles{
+        display: flex;
+        justify-content: center;
+    }
+
+    .map__title{
+        font-size: 25px;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .map__blocks{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+
+    .map__list{
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #e0e0e0;
+        padding: 20px;
+    }
+
+    .map__item{
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0 0 20px 0;
+    }
+
+    .map__item:last-child{
+        margin: 0 0 0px 0;
+    }
+
+    .center__map{
+        margin: 0 auto 200px auto;
+        width: 383px;
+        height: 550px;
+    }
+
+    /* End Section MAP */
+
+    /* Begin Section FOOTER */
+
+    .footer{
+        background-color: #212121;
+        padding: 30px 0;
+        margin: 100px 0 0 0;
+    }
+
+    .footer__body{
+
+    }
+
+    .footer__text{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .footer__info{
+        width: 340px;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+
+    .footer__logo{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 23px;
+        letter-spacing: 2px;
+        margin: 10px 0;
+    }
+
+    .footer__phones{
+        width: 240px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .footer__phones div img:nth-child(1){
+        width: 12px;
+        height: 15px;
+    }
+
+    /* End Section FOOTER */
+    
+}
+
+
+
