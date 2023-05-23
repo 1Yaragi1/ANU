@@ -823,7 +823,7 @@ svg:hover{
     .header__item:first-child{
         font-size: 14px;
         line-height: 20px;
-        width: 250px;
+        width: 255px;
     }
     
     .header__item:nth-child(2){
