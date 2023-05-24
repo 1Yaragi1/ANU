@@ -1,0 +1,871 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Bruno Ace SC', cursive; */
+    /* font-family: 'Russo One', sans-serif; */
+}
+
+/* Begin Section Header */
+
+
+
+
+.header{
+    
+}
+
+
+.container{
+    max-width: 1230px;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+
+.header__top{
+    padding: 30px 0px;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+}
+
+.header__item:not(:last-child){
+   margin: 0 170px 0 0;
+}
+
+.header__item:first-child{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.header__item:nth-child(2){
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 25px;
+    margin: 0 340px 0 0;
+}
+
+.header__item:last-child{
+    font-size: 22px;
+    
+}
+
+
+
+.header__bottom{
+    background-color: #212121;
+    padding: 13px 0px;
+}
+
+
+.nav__list{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nav__item a:hover{
+    color: grey;
+    transition: all 0.5s ease;
+}
+
+
+
+.nav__item:not(:last-child){
+    margin: 0 40px 0 0;
+}
+
+
+.btn__reset{
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav__iconLog{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+
+.nav__iconLog a svg{
+    width: 36px;
+    height: 36px;
+}
+
+svg:hover{
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+
+
+.header__burger{
+    display: none;
+}
+
+/* End Section Header */
+
+
+
+
+/* Begin Section ACCOUNT */
+
+.account{
+    margin: 50px 0 0 0;
+}
+
+.account__body{
+    font-family: 'Russo One', sans-serif;
+}
+
+.account__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+
+.account__title{
+    font-size: 40px;
+}
+
+
+
+.account__link{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+.account__link a{
+    margin: 0 10px 0 0;
+}
+
+.account__log{
+
+}
+
+.account__bot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.account__block{
+    background-color: #cfcfcf;
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 230px;
+}
+
+.account__icon{
+
+}
+
+.account__text{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+/* End Section ACCOUNT */
+
+
+
+/* Begin Section FOOTER */
+
+.footer{
+    background-color: #212121;
+    padding: 30px 0;
+    margin: 166px 0 0 0;
+}
+
+.footer__body{
+
+}
+
+.footer__text{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__info{
+    width: 470px;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.footer__logo{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.footer__phones{
+    width: 330px;
+    text-align: right;
+    line-height: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.footer__phones div img:nth-child(1){
+    width: 15px;
+    height: 20px;
+}
+
+/* End Section FOOTER */
+
+
+
+
+
+
+@media (max-width: 1024px){
+    body{
+       background-color: #000;
+    }
+
+    body::before{
+        content: "Переверните экран в вертикальную ориентацию!";
+        color: #fff;
+        font-size: 50px;
+        font-family: 'Russo One', sans-serif;
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        text-align: center;
+        line-height: 70px;
+    }
+
+
+
+    header,main,section,center,footer{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    body{
+       background-color: #000;
+    }
+
+    body::before{
+        content: "Переверните экран в вертикальную ориентацию!";
+        color: #fff;
+        font-size: 50px;
+        font-family: 'Russo One', sans-serif;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        text-align: center;
+        line-height: 70px;
+    }
+
+
+
+    header,main,section,center,footer{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-color: #fff;
+     }
+
+     body::before{
+       display: none;
+    }
+
+    header,main,section,center,footer{
+        display: block;
+    }
+
+    /* Begin Section Header */
+    .container{
+        max-width: 798px;
+        margin: 0px auto;
+        padding: 0 15px;
+    }
+    
+    .header__top{
+        padding: 30px 0px;
+    }
+    
+    .header__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__item:not(:last-child){
+       margin: 0 0px 0 0;
+    }
+    
+    .header__item:first-child{
+        font-size: 14px;
+        line-height: 20px;
+        width: 255px;
+    }
+    
+    .header__item:nth-child(2){
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 25px;
+    }
+    
+    .header__item:last-child{
+        font-size: 20px;
+    }
+
+
+
+    .header__bottom{
+        background-color: #212121;
+        padding: 25px 0px;
+    }
+
+    .header__burger{
+        margin: 3px 0 0 20px;
+        display: inline-block;
+    }
+
+    
+
+    .header__nav .nav__list{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    
+
+    .header__nav{
+        opacity: 0;
+        transition: all 1s ease;
+    }
+    
+    .nav__list{
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        background-color: #212121;
+        top: 120px;
+        left: 15px;
+    }
+
+    
+
+
+    .mobileMenu{
+        opacity: 1;
+       transition: all 1s ease;
+    }
+    
+
+
+    
+    .nav__item a:hover{
+        color: grey;
+        transition: all 0.5s ease;
+    }
+
+    .nav__item:first-child{
+        order: 4;
+    }
+    .nav__item:nth-child(2){
+        order: 2;
+    }
+    .nav__item:nth-child(3){
+        order: 3;
+    }
+
+    .nav__item:nth-child(4){
+        order: 1;
+        padding: 90px 40px 20px 80px;
+    }
+
+    .nav__item:nth-child(5){
+        order: 5;
+    }
+
+    .nav__item:nth-child(6){
+        order: 6;
+    }
+    
+    .nav__item:last-child{
+        order: 7;
+    }
+    
+    
+    
+    .nav__item{
+       padding: 0 0 20px 15px;
+    }
+    
+    
+    .btn__reset{
+        background-color: transparent;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .nav__iconLog{
+        color: white;
+        font-size: 16px;
+    }
+    
+    
+    
+    .nav__iconLog a svg:first-child{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* End Section Header */
+
+   /* Begin Section ACCOUNT */
+
+    .account{
+        margin: 50px 0 0 0;
+    }
+
+    .account__body{
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .account__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 100px 0;
+    }
+
+    .account__title{
+        font-size: 35px;
+    }
+
+
+
+    .account__link{
+        display: flex;
+        align-items: flex-end;
+        font-size: 18px;
+    }
+
+    .account__link a{
+        margin: 0 10px 0 0;
+    }
+
+    .account__link img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .account__log{
+
+    }
+
+    .account__bot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .account__block{
+        background-color: #cfcfcf;
+        width: 400px;
+        padding: 20px 20px 0px 20px;
+        border-radius: 10px;
+        height: 200px;
+        margin: 0 0 50px 0;
+    }
+
+    .account__bot .account__block:last-child{
+        margin: 0 0 0 0;
+    }
+
+    
+
+    .account__icon{
+        width: 55px;
+        height: 40px;
+    }
+
+    .account__text{
+        text-align: center;
+        font-size: 40px;
+        margin: 20px 0 0 0;
+    }
+
+
+
+
+
+    /* End Section ACCOUNT */
+
+
+    /* Begin Section FOOTER */
+
+    .footer{
+        background-color: #212121;
+        padding: 30px 0;
+        margin: 100px 0 0 0;
+    }
+
+    .footer__body{
+
+    }
+
+    .footer__text{
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__info{
+        width: 371px;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+
+    .footer__logo{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 23px;
+        letter-spacing: 2px;
+    }
+
+    .footer__phones{
+        width: 270px;
+        text-align: right;
+        line-height: 30px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .footer__phones div img:nth-child(1){
+        width: 12px;
+        height: 15px;
+    }
+
+    /* End Section FOOTER */
+
+    
+}
+
+
+@media (max-width: 425px){
+
+    body{
+        background-color: #fff;
+     }
+
+     body::before{
+        display: none;
+     }
+
+    header,main,section,center,footer{
+        display: block;
+    }
+
+    .container{
+        max-width: 455px;
+        margin: 0px auto;
+        padding: 0 15px;
+    }
+    
+    .header__top{
+        padding: 30px 0px;
+    }
+    
+    .header__list{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header__item:not(:last-child){
+       margin: 0 0px 0 0;
+    }
+    
+    .header__item:first-child{
+        font-size: 12px;
+        line-height: 20px;
+        width: 200px;
+        display: none;
+    }
+    
+    .header__item:nth-child(2){
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 22px;
+    }
+    
+    .header__item:last-child{
+        font-size: 18px;
+        margin: 10px 0 0 0;
+    }
+
+
+
+    .header__bottom{
+        background-color: #212121;
+        padding: 25px 0px;
+    }
+
+    .header__burger{
+        margin: 3px 0 0 20px;
+        display: inline-block;
+    }
+
+    
+
+    .header__nav .nav__list{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    
+
+    .header__nav{
+        opacity: 0;
+        transition: all 1s ease;
+    }
+    
+    .nav__list{
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        background-color: #212121;
+        top: 120px;
+        left: 15px;
+    }
+
+    
+
+
+    .mobileMenu{
+        opacity: 1;
+       transition: all 1s ease;
+    }
+    
+
+
+    
+    .nav__item a:hover{
+        color: grey;
+        transition: all 0.5s ease;
+    }
+
+    .nav__item:first-child{
+        order: 4;
+    }
+    .nav__item:nth-child(2){
+        order: 2;
+    }
+    .nav__item:nth-child(3){
+        order: 3;
+    }
+
+    .nav__item:nth-child(4){
+        order: 1;
+        padding: 90px 50px 20px 80px;
+    }
+
+    .nav__item:nth-child(5){
+        order: 5;
+    }
+
+    .nav__item:nth-child(6){
+        order: 6;
+    }
+    
+    .nav__item:last-child{
+        order: 7;
+    }
+    
+    
+    
+    .nav__item{
+       padding: 0 0 20px 15px;
+    }
+    
+    
+    .btn__reset{
+        background-color: transparent;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .nav__iconLog{
+        color: white;
+        font-size: 16px;
+    }
+    
+    
+    
+    .nav__iconLog a svg:first-child{
+        width: 30px;
+        height: 30px;
+    }
+
+
+    /* Begin Section ACCOUNT */
+
+    .account{
+        margin: 50px 0 0 0;
+    }
+
+    .account__body{
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .account__top{
+        display: block;
+        margin: 0 0 60px 0;
+    }
+
+    .account__title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+
+    .account__link{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        font-size: 18px;
+        margin: 15px 0 0 0;
+    }
+
+    .account__link a{
+        margin: 0 10px 0 0;
+    }
+
+    .account__link img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .account__log{
+
+    }
+
+    .account__bot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .account__block{
+        background-color: #cfcfcf;
+        width: 350px;
+        padding: 20px 20px 0px 20px;
+        border-radius: 10px;
+        height: 170px;
+        margin: 0 0 50px 0;
+    }
+
+    .account__bot .account__block:last-child{
+        margin: 0 0 0 0;
+    }
+
+    
+
+    .account__icon{
+        width: 45px;
+        height: 40px;
+    }
+
+    .account__text{
+        text-align: center;
+        font-size: 30px;
+        margin: 10px 0 0 0;
+    }
+
+
+
+
+
+    /* End Section ACCOUNT */
+
+
+    
+
+    /* Begin Section FOOTER */
+
+    .footer{
+        background-color: #212121;
+        padding: 30px 0;
+        margin: 100px 0 0 0;
+    }
+
+    .footer__body{
+
+    }
+
+    .footer__text{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .footer__info{
+        width: 340px;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+
+    .footer__logo{
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 23px;
+        letter-spacing: 2px;
+        margin: 10px 0;
+    }
+
+    .footer__phones{
+        width: 240px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .footer__phones div img:nth-child(1){
+        width: 12px;
+        height: 15px;
+    }
+
+    /* End Section FOOTER */
+    
+}
+
+
+
