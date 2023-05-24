@@ -823,7 +823,7 @@ svg:hover{
     }
 }
 
-@media (max-width: 779px){
+@media (max-width: 769px){
     body{
        background-color: #000;
     }
