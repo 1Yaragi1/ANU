@@ -823,6 +823,30 @@ svg:hover{
     }
 }
 
+@media (max-width: 779px){
+    body{
+       background-color: #000;
+    }
+
+    body::before{
+        content: "Переверните экран в вертикальную ориентацию!";
+        color: #fff;
+        font-size: 50px;
+        font-family: 'Russo One', sans-serif;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        text-align: center;
+        line-height: 70px;
+    }
+
+
+
+    header,main,section,center,footer{
+        display: none;
+    }
+}
+
 @media (max-width: 768px){
     body{
         background-color: #fff;
