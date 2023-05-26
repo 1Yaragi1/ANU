@@ -797,6 +797,53 @@ svg:hover{
 
 /* End Section FOOTER */
 
+.back-to-top{
+    position: fixed;
+    right: 130px;
+    bottom: 100px;
+    width: 70px;
+    height: 70px;
+    border-color: transparent;
+    border-radius: 50%;
+    background-color: #a0887e;
+    display: none;
+}
+
+.back-to-top--show{
+   display: block;
+}
+
+.back-to-top:hover,
+.back-to-top:focus{
+    filter: brightness(1.2);
+    outline: none;
+}
+
+.back-to-top::before,
+.back-to-top::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+}
+
+.back-to-top::before{
+    width: 5px;
+    height: 30px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #f5f0f6;
+}
+
+.back-to-top::after{
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, -70%) rotate(45deg);
+    border-top: 5px solid #f5f0f6;
+    border-left: 5px solid #f5f0f6;
+}
+
 
 
 @media (max-width: 1024px){
