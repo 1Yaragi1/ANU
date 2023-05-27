@@ -53,14 +53,14 @@ body{
 .auto__email input{
     border: 3px solid #a0887e;
     border-radius: 5px;
-    padding: 10px 60px 10px 10px;
+    padding: 10px 80px 10px 10px;
 }
 
 .auto__email input:focus{
    outline: transparent;
    border: 3px solid black;
     border-radius: 5px;
-    padding: 10px 60px 10px 10px;
+    padding: 10px 80px 10px 10px;
     transition: all 0.5s ease;
 }
 
@@ -71,16 +71,37 @@ body{
 .auto__pass input{
     border: 3px solid #a0887e;
     border-radius: 5px;
-    padding: 10px 60px 10px 10px;
+    padding: 10px 80px 10px 10px;
 }
 
 .auto__pass input:focus{
     outline: transparent;
     border: 3px solid black;
     border-radius: 5px;
-    padding: 10px 60px 10px 10px;
+    padding: 10px 80px 10px 10px;
     transition: all 0.5s ease;
 }
+
+.auto__pass-r input{
+    border: 3px solid #a0887e;
+    border-radius: 5px;
+    padding: 10px 80px 10px 10px;
+}
+
+.auto__pass-r input:focus{
+    outline: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px 80px 10px 10px;
+    transition: all 0.5s ease;
+}
+
+.auto__check{
+    font-size: 16px;
+    margin: 20px 0 10px 0px;
+}
+
+
 
 .auto__btn{
     margin: 10px 0px;
@@ -92,9 +113,7 @@ body{
     cursor: pointer;
 }
 
-.auto__link{
-    font-size: 18px;
-}
+
 
 
 
@@ -175,6 +194,26 @@ body{
         padding: 10px 60px 10px 10px;
         transition: all 0.5s ease;
     }
+
+
+    .auto__pass-r input{
+        border: 3px solid #a0887e;
+        border-radius: 5px;
+        padding: 10px 60px 10px 10px;
+    }
+    
+    .auto__pass-r input:focus{
+        outline: transparent;
+        border: 3px solid black;
+        border-radius: 5px;
+        padding: 10px 60px 10px 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .auto__check{
+        font-size: 15px;
+        margin: 20px 0 20px 0px;
+    }
     
     .auto__btn{
         margin: 0px 0px 10px 0;
@@ -186,9 +225,7 @@ body{
         cursor: pointer;
     }
     
-    .auto__link{
-        font-size: 16px;
-    }
+    
     
     
     
@@ -271,21 +308,35 @@ body{
         padding: 10px 40px 10px 10px;
         transition: all 0.5s ease;
     }
+
+    .auto__pass-r input{
+        border: 3px solid #a0887e;
+        border-radius: 5px;
+        padding: 10px 40px 10px 10px;
+    }
+    
+    .auto__pass-r input:focus{
+        outline: transparent;
+        border: 3px solid black;
+        border-radius: 5px;
+        padding: 10px 40px 10px 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .auto__check{
+        font-size: 13px;
+        margin: 20px 0 20px 0px;
+    }
     
     .auto__btn{
         margin: 0px 0px 10px 0;
-        font-size: 18px;
+        font-size: 16px;
         background-color: #a0887e;
         color: #fff;
         padding: 15px 30px;
         border-radius: 10px;
         cursor: pointer;
     }
-    
-    .auto__link{
-        font-size: 14px;
-    }
-    
     
     
 }
